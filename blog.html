@@ -1,0 +1,31 @@
+---
+title: blog index
+---
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Page Title</title>
+</head>
+
+<body>
+<h1>blog index?</h1>
+
+<h2>STILL A WORK IN PROGRESS!!</h2>
+
+<h2>TODO!</h2>
+<p>
+  generate list of posts? <br>
+  - organize by tag?
+</p>
+
+<p>
+	{% for post in site.posts %}
+		<li>
+			<a href="{{ post.url }}">{{ post.title }}</a>
+		</li>
+	{% endfor %}	
+</p>
+</body>
+
+</html>
