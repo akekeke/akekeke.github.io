@@ -1,1 +1,6 @@
+title: Amanda Ke
+
 theme: jekyll-theme-minimal
+
+# permalink: pretty
+permalink: /:categories/:year/:month/:day/:title/
